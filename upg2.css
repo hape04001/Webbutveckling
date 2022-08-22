@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    font-size: 22px;
+    font-family: Arial;
+}
+.text{
+    background-color: aqua;
+    color: brown;
+    text-align: center;
+}
+.text1{
+    text-align: right;
+}
+.text2{
+    text-decoration: none;
+}
+
+.box{
+    width: 300px;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 10px;
+
+}
