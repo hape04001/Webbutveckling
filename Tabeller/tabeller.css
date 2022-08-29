@@ -1,0 +1,37 @@
+table,th,td{
+    border: solid black;
+    border-collapse: collapse;
+}
+th{
+    width: 200px;
+}
+th:nth-child(1){
+    text-align: left;
+}
+
+tr:nth-child(even){
+    background-color: yellow;
+}
+
+td:nth-child(1){
+    text-align: left;
+}
+td:nth-child(4){
+    text-align: right;
+}
+td{
+    text-align: center;
+}
+th:nth-child(4){
+    text-align: right;
+}
+tr:nth-child(1){
+    background-color: aqua;
+}
+.center{
+    margin-left:auto;
+    margin-right: auto ;
+}
+.text{
+    text-align: center;
+}
