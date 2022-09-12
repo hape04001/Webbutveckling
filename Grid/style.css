@@ -1,27 +1,53 @@
 body{
+    display: grid;
+    grid-template-rows: 5% 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    grid-template-areas:    
+    "header header"
+    "main main"
+    "aside aside"
+    "right right"
+    "footer footer"
+   
+    ;
     background-color: black;
     color: white;
 }
-h1{
+
+header{
+    grid-area: header;
+ 
+}
+header >h1{
     font-size: 22px;
-    font-family: Arial;
+    font-family: Arial; 
 }
-.text{
-    background-color: aqua;
-    color: brown;
+main{
+    grid-area: main;
+    
+}
+
+aside{
+    grid-area: main ;
+    grid-column-start: 2;
+    background-color: white;
+    color: black;
     text-align: center;
+    
 }
-.text1{
+right{
+    grid-area: right;
     text-align: right;
 }
-.text2{
-    text-decoration: none;
+footer{
+    grid-area: footer;
+    
 }
-
-.box{
-    width: 300px;
-    border: 2px solid white;
-    padding: 20px;
-    margin: 10px;
-
+a{
+    text-decoration: none;
+    color: aqua;
+}
+footer > img{
+    width: 30%;
 }
