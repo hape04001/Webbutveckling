@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulär</title>
+
+</head>
+<body>
+    <h1>Formulär</h1>
+    <form method="get" action="form.html">
+
+        <fieldset>
+            <label for="fnamn">Förnamn:</label>
+            <input type="text" name="fnamn" id="fnamn" required/>
+            <br>
+            <br>
+            <label for="enamn">Efternamn:</label>
+            <input type="text" name="enamn" id="enamn" required/>
+            <br>
+            <br>
+        </fieldset>
+        <fieldset>
+            <input type="radio" name="gender" value="m" id="m"/>
+            <label for="m">Man</label>
+            <input type="radio" name="gender" value="k" id="k"/>
+            <label for="k">Kvinna</label>
+            <input type="radio" name="gender" value="a" id="a"/>
+            <label for="a">Attackhelikopter</label>
+        </fieldset>
+            <br>
+            <br>
+        <fieldset>
+            <input type="checkbox" namn="farg" value="b" id="b"/>
+            <label for="b">blå</label>
+            <input type="checkbox" namn="farg" value="g" id="g"/>
+            <label for="g">grön</label>
+            <input type="checkbox" namn="farg" value="s" id="s"/>
+            <label for="s">svart</label>
+            <input type="checkbox" namn="farg" value="v" id="v"/>
+            <label for="v">vit</label>
+        </fieldset>
+            <br>
+            <br>
+            <input type="submit" value="skicka">
+    </form>
+</body>
+</html>
